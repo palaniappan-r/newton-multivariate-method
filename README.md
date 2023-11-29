@@ -1,1 +1,1 @@
-# num-analysis-assignment
+# newton-multivariate-method
