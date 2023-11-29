@@ -49,13 +49,4 @@ class multivariate_newton:
     def get_iterations(self):                
         return self.iterations
     
-def f(x):
-    return np.array([(x[0] - 1)**2 + (x[1] + 2)**2 + (x[2])**2 - 25,
-                    (x[0] + 2) ** 2 + (x[1] - 2) ** 2 + (x[2] + 1) ** 2 - 25, 
-                    (x[0] - 4) ** 2 + (x[1] + 2) ** 2 + (x[2] - 3) ** 2 - 25])    
-
-# x0 = np.array([0.1, 0.2, 0.3])
-
-# solver = multivariate_newton(f, x0, 1e-10, verbose=True)
-# solver.solve()
 
